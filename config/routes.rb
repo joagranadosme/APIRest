@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :goals
   resources :products
   resources :instruments
   resources :pets
