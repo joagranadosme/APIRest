@@ -4,7 +4,7 @@ class CreateBosses < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :lastname
       t.string :charge
-      t.int :salary
+      t.integer :salary
 
       t.timestamps
     end
